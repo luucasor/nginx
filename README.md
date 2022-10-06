@@ -13,7 +13,7 @@ localhost:80
                                               - - - - localhost:8002
 ```
 
-## Comandos
+## Comandos nginx
   ###### Valida a sintaxe dos arquivos de configuração
 ``` nginx
     nginx -t
