@@ -1,4 +1,4 @@
-# nginx
+# Geral
 
 ## Estrutura dos servidores: Em construção
 ```
