@@ -1,6 +1,6 @@
 # nginx
 
-## Estrutura dos servidores
+## Estrutura dos servidores: Em construção
 ```
 
 localhost:80
@@ -13,15 +13,15 @@ localhost:80
                                               - - - - localhost:8002
 ```
 
-## Estrutura dos arquivos de configuração
+## Estrutura dos arquivos de configuração: Em construção
 ```
 
-localhost:8080 (reverse proxy)
+localhost:80 (reverse proxy)
     |
     |
     |                                         - - - - localhost:8001
     |                                        |
-      - - localhost:80   () - - |
+      - - localhost:8000 (load balancer) - - |
                                              | 
                                               - - - - localhost:8002
 ```
