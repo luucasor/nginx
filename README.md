@@ -25,6 +25,7 @@ localhost:80 (reverse proxy)
                                              | 
                                               - - - - localhost:8002
 ```
+<br>
 
 ## Comandos nginx
   ###### Valida a sintaxe dos arquivos de configuração
@@ -39,17 +40,19 @@ localhost:80 (reverse proxy)
 ``` nginx
     nginx -h
 ```
+<br>
 
 ## Diretórios
   ###### /usr/local/etc/nginx: Caminho dos arquivos principais (bases) de configuração do nginx
   ###### /usr/local/etc/nginx/servers: Caminho dos arquivos de configuração dos servidores criados
   ###### /Users/lucasortigarareis/Dev/nginx: Caminho dos arquivos html e diretórios de log
-  
+<br>
+
 ## Conceitos
  ### Reverse Proxy: em construção
  ### API Gateway: em construção
  ### Load Balancer: em construção
- 
+<br>
  
 ## Configuração
 ### server - Bloco responsável pela configuração do servidor
