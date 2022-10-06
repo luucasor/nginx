@@ -14,7 +14,10 @@ localhost:80
 ```
 
 ## Diretórios
-
+  ###### /usr/local/etc/nginx: Caminho dos arquivos principais (bases) de configuração do nginx
+  ###### /usr/local/etc/nginx/servers: Caminho dos arquivos de configuração dos servidores criados
+  ###### /Users/lucasortigarareis/Dev/nginx: Caminho dos arquivos html e diretórios de log
+  
 ## Conceitos
  ### Reverse Proxy: teste
  
