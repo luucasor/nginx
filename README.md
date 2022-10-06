@@ -77,10 +77,12 @@ location / {
 }
 ```
   ###### proxy_pass: Caso seja utilizado, direciona a requisição para um outro serviço.
+  ###### proxy_set_header: Parâmetro usado para inserir informações no header da requisição.
   ###### exemplo 2:
 ``` 
 location ~ \.php$ {
   proxy_pass http://localhost:8000  
+  proxy_set_header X-Real-IP $remote_addr;
 }
 ```
 
