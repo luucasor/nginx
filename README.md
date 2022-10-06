@@ -13,6 +13,20 @@ localhost:80
                                               - - - - localhost:8002
 ```
 
+## Comandos
+  ###### Valida a sintaxe dos arquivos de configuração
+``` nginx
+    nginx -t
+```
+  ###### Recarrega os arquivos de configuração
+``` nginx
+    nginx -s reload
+```
+  ###### Chama o help do nginx, apresentando alguns dados versão | caminho de instalação | caminho dos arquivos de configuração e etc
+``` nginx
+    nginx -h
+```
+
 ## Diretórios
   ###### /usr/local/etc/nginx: Caminho dos arquivos principais (bases) de configuração do nginx
   ###### /usr/local/etc/nginx/servers: Caminho dos arquivos de configuração dos servidores criados
