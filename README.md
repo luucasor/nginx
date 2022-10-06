@@ -1,6 +1,6 @@
 # nginx
 
-## Estrutura
+## Estrutura deste projeto
 ```
 
 localhost:80
