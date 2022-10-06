@@ -19,7 +19,8 @@ localhost:80
   ###### /Users/lucasortigarareis/Dev/nginx: Caminho dos arquivos html e diretórios de log
   
 ## Conceitos
- ### Reverse Proxy: teste
+ ### Reverse Proxy: em construção
+ ### API Gateway:  em construção
  
 ## Configuração
 ### server - Bloco responsável pela configuração do servidor
