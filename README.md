@@ -1,6 +1,6 @@
 # nginx
 
-## Estrutura deste projeto
+## Estrutura dos servidores
 ```
 
 localhost:80
@@ -9,6 +9,19 @@ localhost:80
     |                                         - - - - localhost:8001
     |                                        |
       - - localhost:8080 (reverse proxy) - - |
+                                             | 
+                                              - - - - localhost:8002
+```
+
+## Estrutura dos arquivos de configuração
+```
+
+localhost:8080 (reverse proxy)
+    |
+    |
+    |                                         - - - - localhost:8001
+    |                                        |
+      - - localhost:80   () - - |
                                              | 
                                               - - - - localhost:8002
 ```
@@ -34,7 +47,9 @@ localhost:80
   
 ## Conceitos
  ### Reverse Proxy: em construção
- ### API Gateway:  em construção
+ ### API Gateway: em construção
+ ### Load Balancer: em construção
+ 
  
 ## Configuração
 ### server - Bloco responsável pela configuração do servidor
@@ -72,3 +87,11 @@ location ~ \.php$ {
 ``` 
   error_page 404 400 401 /erro.html  
 ```
+
+### upstream - Parâmetro responsável pela configuração do load balancer
+  ###### formato: em construção
+  ###### exemplo:
+``` 
+  em construção
+```
+
